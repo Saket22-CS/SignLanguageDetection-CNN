@@ -1,21 +1,100 @@
-**Introduction**
+# 🧠 Sign Language Detection Using Deep Learning 🤟
 
-Communication is one of the most important parts of our daily lives. 
-For people who are deaf or hard of hearing, sign language is a powerful way to express themselves. 
-However, not everyone understands sign language, which can lead to communication barriers in everyday 
-situations like schools, hospitals, or public places.
-With the help of technology, especially computer vision and deep learning, we now have the ability 
-to teach machines to understand visual information like hand gestures. This project, 
-SignLanguageDetection, focuses on recognizing hand gestures used in sign language. 
-The goal is to take a small step toward bridging the gap between sign language users and non-signers, 
-making communication more inclusive and accessible for everyone.
+This project focuses on recognizing hand gestures from static images using a custom Convolutional Neural Network (CNN) built with TensorFlow/Keras. The model is trained to classify six basic hand gestures representing sign language digits using grayscale image data and OpenCV-based image preprocessing.
 
-step1 - clone this repositor in your local machine to clone use below command
+---
 
-   git clone https://github.com/therohitshelar97/SignLanguageDetectionDeepLearningProject.git
+## 📁 Project Structure
 
-Step2 - Now you have to install all requiremets/libraries
+```bash
+├── Code/
+│   ├── TrainingHandGesture.py         # CNN model training script
+│   ├── HandGestureRecognitionOpenCV.py# Real-time hand gesture detection with OpenCV
+│   └── test.py                        # Script to test trained model on individual images
+├── HandGestureDataset/               # Image dataset (train/test)
+├── model.h5                          # Trained CNN model
+├── requirements.txt                  # Required Python libraries
+```
 
-   pip install requirements.txt
-   
-  
+---
+
+## 📌 Features
+
+✅ Real-time hand gesture detection with OpenCV  
+✅ Custom CNN for classification (trained on 256x256 grayscale images)  
+✅ Easy testing on new data  
+✅ Works offline, lightweight  
+✅ Uses six classes: `NONE`, `ONE`, `TWO`, `THREE`, `FOUR`, `FIVE`
+
+---
+
+## 🏗️ How It Works
+
+1. **Training**
+   - Run `TrainingHandGesture.py` to train the CNN on your dataset.
+   - The model is saved as `model.h5`.
+
+2. **Testing on New Images**
+   - Use `test.py` to classify new images in a folder.
+
+3. **Real-Time Detection**
+   - Launch `HandGestureRecognitionOpenCV.py` to detect gestures in webcam feed.
+
+---
+
+## 🔧 Requirements
+
+Install dependencies with:
+
+```bash
+pip install -r requirements.txt
+```
+
+Dependencies include:
+- `tensorflow`
+- `opencv-python`
+- `numpy`
+- `keras`
+
+---
+
+## 🧪 Example Output
+
+![Output Example](https://user-images.githubusercontent.com/your-username/sample-output.png) <!-- Replace with actual link if needed -->
+
+---
+
+## 🚀 Future Scope
+
+To improve this project, consider:
+- Integrating MediaPipe Hands for more reliable tracking.
+- Adding dynamic gesture recognition using LSTM.
+- Deploying via Streamlit or Flask for a web interface.
+- Expanding the gesture vocabulary to cover full ASL.
+
+---
+
+## 🤝 Contributing
+
+Feel free to fork this repo, improve the code, and submit pull requests. Contributions are welcome!
+
+---
+
+## 📝 License
+
+This project is open-source and available under the [MIT License](LICENSE).
+
+---
+
+## 🙌 Acknowledgments
+
+- Dataset and inspiration from self-collected and open gesture sets.
+- Built during AI internship learning sessions using OpenCV and TensorFlow.
+
+---
+
+## 👨‍💻 Author
+
+**Saket Chaudhary**  
+📧 saketrishu64821@gmail.com  
+🔗 [LinkedIn](https://www.linkedin.com/in/saket-chaudhary22) | [GitHub](https://github.com/Saket22-CS)
