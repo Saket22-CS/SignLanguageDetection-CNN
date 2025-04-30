@@ -58,12 +58,6 @@ Dependencies include:
 
 ---
 
-## 🧪 Example Output
-
-![Output Example](https://user-images.githubusercontent.com/your-username/sample-output.png) <!-- Replace with actual link if needed -->
-
----
-
 ## 🚀 Future Scope
 
 To improve this project, consider:
