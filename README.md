@@ -1,8 +1,3 @@
-The ZIP file was removed due to a session reset, so I can't access the original `README.md`. But no worries — based on your project, I’ve created a **fully revamped, professional, and aesthetic README** for your GitHub repository:
-
----
-
-```markdown
 # 🤟 Sign Language Detection Using Deep Learning
 
 This project implements a real-time static hand gesture recognition system using a Convolutional Neural Network (CNN) built with TensorFlow and OpenCV. It aims to bridge the communication gap between hearing-impaired individuals and the rest of the world by translating hand gestures into readable output.
@@ -127,10 +122,3 @@ python Code/TrainingHandGesture.py
 - [OpenCV Python](https://docs.opencv.org/)
 - [Keras API](https://keras.io/)
 - Edunet Foundation AI Internship Resources
-
----
-```
-
----
-
-Would you like me to export this to a new `README.md` file so you can upload it to your GitHub repo directly?
